@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Android AR Test - SM20 BP</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<style>
+body { margin: 0; padding: 0; background: #111; font-family: sans-serif; text-align: center; color: white; }
+model-viewer { width: 100vw; height: 80vh; }
+h1 { margin-top: 10px; }
+</style>
+</head>
+<body>
+<h1>Test AR su Android</h1>
+<model-viewer
+src="sm20_bp.glb"
+ar
+ar-modes="scene-viewer"
+camera-controls
+auto-rotate
+shadow-intensity="1"
+exposure="1"
+alt="SM20 BP Model"
+quick-look-browsers="safari">
+</model-viewer>
+<p>Se sei su Android, tocca l’icona AR in basso a destra.</p>
+</body>
+</html>
